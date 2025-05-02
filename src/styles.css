@@ -3,6 +3,10 @@
   margin: 30px auto;
 }
 
+header {
+  color: #410445;
+}
+
 h1 {
   text-align: center;
   font-size: 80px;
@@ -16,8 +20,32 @@ h2 {
   margin-bottom: 50px;
 }
 
+h3 {
+  font-weight: 100;
+}
+
+h4 {
+  font-size: 28px;
+  text-align: center;
+  color: #410445;
+  margin-bottom: 0;
+}
+
 .main {
   margin-left: 50px;
+}
+
+.main a {
+  color: #410445;
+}
+
+.main a:hover {
+  color: #f7cfd8;
+}
+
+.secondary h2 {
+  color: #410445;
+  margin-top: 50px;
 }
 
 p {
@@ -37,8 +65,50 @@ img {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-header img {
+  margin: 30px 0;
+  height: 100%;
+  width: 100%;
+}
+
+.btn {
+  display: block;
+  padding: 16px 8px;
+  text-align: center;
+  border-radius: 40px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.card-body a {
+  color: #410445;
+  border: 1px solid #410445;
+  font-weight: bold;
+}
+
+.card-body a:hover {
+  color: #f7cfd8;
+}
+
 a {
   text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: #410445;
+}
+
+footer a:hover {
+  color: #f7cfd8;
 }
 
 @media (max-width: 960px) {
@@ -49,5 +119,14 @@ a {
   img {
     display: block;
     margin: 0 auto;
+  }
+
+  .card-header img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .grid-3-columns {
+    grid-template-columns: 1fr;
   }
 }
