@@ -1,0 +1,53 @@
+.container {
+  max-width: 1400px;
+  margin: 30px auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.main {
+  margin-left: 50px;
+}
+
+p {
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+img {
+  margin-left: 200px;
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
